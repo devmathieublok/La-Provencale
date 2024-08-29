@@ -1,0 +1,182 @@
+@font-face {
+  font-family: "Juana";
+  src: url("../assets/fonts/JuanaAlt.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Juana-Medium";
+  src: url("../assets/fonts/JuanaAlt-Medium.otf") format("opentype");
+}
+
+
+@font-face {
+  font-family: "Avant-Garde-Bold";
+  src: url("../assets/fonts/Avant-Garde-Bold.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avant-Garde-Demi";
+  src: url("../assets/fonts/Avant-Garde-Demi.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avant-Garde-Book";
+  src: url("../assets/fonts/Avant-Garde-Book.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avant-Garde-Book-Default";
+  src: url("../assets/fonts/Avant-Garde-Book-Default.otf") format("opentype");
+}
+
+@font-face {
+  font-family: "Avant-Garde-Demi-Default";
+  src: url("../assets/fonts/Avant-Garde-Demi-Default.otf") format("opentype");
+}
+
+
+.H1 {
+	font-family: "Juana";
+	font-size: 90px;
+	font-style: normal;
+	font-weight: 280;
+	line-height: 85px;
+	text-transform: uppercase;
+	margin: 0px;
+	padding : 0px;
+}
+
+@media screen and (max-width: 800px) {
+	.H1 {
+		font-size: 64px;
+		line-height: 52px;
+	}
+}
+
+.H2 {
+	font-family: "Juana";
+	font-size: 60px;
+	font-style: normal;
+	font-weight: 280;
+	line-height: normal;
+	text-transform: uppercase;
+	margin: 0px;
+	padding : 0px;
+}
+
+@media screen and (max-width: 800px) {
+	.H2 {
+		font-size: 40px;
+	}
+}
+
+.H3 {
+	font-family: "Juana";
+	font-size: 35px;
+	font-style: normal;
+	font-weight: 280;
+	line-height: normal;
+	text-transform: uppercase;
+	margin: 0px;
+	padding : 0px;
+}
+
+.Subtitle {
+	font-family: "Avant-Garde-Bold";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: 26px;
+	margin-bottom: 38px;
+}
+
+.Paragraphe {
+	font-family: "Avant-Garde-Book";
+	font-size: 16px;
+	font-style: normal;
+	font-weight: 300;
+	line-height: 26px;
+}
+
+.CTA {
+	font-family: "Avant-Garde-Demi-Default";
+	font-size: 13px;
+	font-style: normal;
+	font-weight: 600;
+	line-height: normal;
+}
+
+.Card-Subtitle {
+	font-family: "Avant-Garde-Bold";
+	font-size: 12px;
+	font-style: normal;
+	font-weight: 700;
+	line-height: normal;
+	text-transform: uppercase;
+	margin-bottom: 5px;
+
+}
+
+.Card-Title {
+	font-family: "Avant-Garde-Book-Default";
+	font-size: 16px;
+	font-style: lighter;
+	font-weight: 300;
+	line-height: normal;
+	text-transform: uppercase;
+	margin: 0px;
+}
+
+.Quotes {
+	font-family: "Juana";
+	font-size: 38px;
+	font-style: normal;
+	font-weight: 280;
+	line-height: 64px;
+	text-align: center;
+}
+
+@media screen and (max-width: 800px) {
+	.Quotes {
+		font-size: 24px;
+		line-height: 32px;
+	}
+}
+
+.Anchors {
+	font-family: "Juana";
+	font-size: 20px;
+	font-style: normal;
+	font-weight: 280;
+	line-height: normal;
+	text-decoration: none;
+	color: #000000
+}
+
+@media screen and (max-width: 800px) {
+	.Anchors {
+		font-size: 16px
+	}
+}
+
+.Quotes-Name {
+	color: #000;
+	text-align: center;
+	font-family: "Juana";
+	font-size: 25px;
+	font-style: normal;
+	font-weight: 500;
+	line-height: 15px;
+	margin-top: 0px;
+}
+
+@media screen and (max-width: 800px) {
+	.Quotes-Name {
+		font-size: 16px;
+		line-height: 24px;
+	}
+}
+
+strong {
+	font-family: "Juana-Demi";
+}
