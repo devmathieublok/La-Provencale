@@ -12,6 +12,8 @@
 @font-face {
   font-family: "Avant-Garde-Bold";
   src: url("../assets/fonts/Avant-Garde-Bold.otf") format("opentype");
+  font-weight: bold;
+  font-style: normal;
 }
 
 @font-face {
