@@ -42,7 +42,8 @@ html, body {
 
 @media screen and (max-width: 800px) {
 	.Anchors-Nav-Fixed {
-	max-width: 100%;
+	max-width: auto;
+	width:100vw;
 }
 }
 
