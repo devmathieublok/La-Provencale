@@ -598,6 +598,12 @@ html, body {
 .PushCoffret > img {
 	margin-left: 50px;
 }
+
+@media screen and (max-width: 800px) {
+.PushCoffret > img {
+	margin-left: 0px;
+}
+}
 .PushCoffret > .Button {
 	background: #FFFFFF;
 }
