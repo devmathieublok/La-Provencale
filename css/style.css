@@ -91,6 +91,12 @@ html, body {
 	}
 }
 
+@media screen and (max-width: 500px) {
+	.Cover {
+		background-image: url(../assets/img/Cover-Mobile.jpg);
+	}
+}
+
 .Introduction {
 	background-color:#EDB988;
 	padding-top: 90px;
