@@ -73,7 +73,7 @@ html, body {
 
 @media screen and (max-width: 800px) {
 	.Anchors:not(:first-child):not(:last-child) {
-	margin: 0px 32px;
+	margin: 0px 16px;
 }
 }
 
