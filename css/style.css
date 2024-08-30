@@ -1,6 +1,7 @@
 html, body {
 	padding: :0px;
 	margin: 0px;
+	scroll-behavior: smooth;
 }
 
 @media screen and (max-width: 920px) {
@@ -10,7 +11,7 @@ html, body {
 }
 
 .Wrapper {
-	max-width: 1440px;
+/*	max-width: 1440px;*/
 	position: relative;
 	margin: 0 auto;
 }
@@ -54,7 +55,7 @@ html, body {
 	padding: 60px 0px;
 	background-color: #FFFFFF;
 	transition: all 0.3s ease-out;
-	width: 100%;
+	width: 100vw;
 }
 
 .Anchors-Nav-Scrolled {
@@ -63,7 +64,7 @@ html, body {
 	align-items: flex-start;
 	padding: 30px 0px;
 	background-color: #FFFFFF;
-	width: 100%;
+	width: 100vw;
 	transition: all 0.3s ease-out;
 	border-bottom: solid 1px #E1E1E1;
 }
@@ -225,6 +226,19 @@ html, body {
 		justify-content: space-around;
 	}
 
+}
+
+@media screen and (max-width: 500px) {
+	.Picture {
+		width: 100%;
+		display: flex;
+		justify-content: space-between;
+		flex-direction: column;
+	}
+
+	.Picture-Mobile {
+		display: none;
+	}
 }
 
 .Picture > img {
@@ -537,6 +551,23 @@ html, body {
 	justify-content: space-between;
 } 
 
+.Iris-Mobile {
+	display: none;
+}
+
+@media screen and (max-width: 500px) {
+	.Iris-Mobile {
+	display: block;
+	margin-top: 40px;
+}
+
+	.Iris-Mobile > img {
+		height: 100%;
+	}
+}
+
+
+
 @media screen and (max-width: 1280px) {
 	.CoffretIntro {
 		flex-direction: column;
@@ -571,6 +602,8 @@ html, body {
 	display: flex;
 	justify-content: flex-end;
 	padding-right: 265px;
+	border-radius: 0px 240px 0px 0px;
+
 }
 
 @media screen and (max-width: 920px) {
@@ -584,6 +617,16 @@ html, body {
 		padding-right: 24px;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.Coffret {
+	background-image: url(../assets/img/Coffret-Background-Mobile.jpg);
+	border-radius: 0px 100px 0px 0px;
+	padding-bottom: 0px;
+
+}
+}
+
 
 .PushCoffret {
 	max-width: 445px;
@@ -640,7 +683,6 @@ html, body {
 @media screen and (max-width: 1280px) {
 	.Témoignages-Intro {
 		flex-direction: column;
-		border-bottom: solid 1px lightgrey;
 		padding-bottom: 90px; 
 }
 }
@@ -648,7 +690,7 @@ html, body {
 @media screen and (max-width: 800px) {
 	.Témoignages-Intro {
 		margin-top: 52px;
-		padding-bottom: 52px;
+		padding-bottom: 0px;
 		margin-bottom: 0px;
 	}
 }
@@ -663,6 +705,10 @@ html, body {
 	top: -24px;
 }
 
+.Mobile-Guillemet {
+	display: none;
+}
+
 .Bottom {
 	position: absolute;
 	bottom: 0;
@@ -672,6 +718,15 @@ html, body {
 @media screen and (max-width: 800px) {
 	.Top, .Bottom {
 		display: none;
+	}
+	.Mobile-Guillemet {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 32px;
+}
+
+	.Margin-Guillemet {
+		margin-right: 32px;
 	}
 }
 
